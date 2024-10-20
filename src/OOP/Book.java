@@ -7,7 +7,7 @@ public class Book {
     private int year;
 
 
-    public Book(String title,Author author, int year) {
+    public Book(String title, Author author, int year) {
         this.title = title;
         this.author = author;
         this.year = year;
@@ -40,7 +40,7 @@ public class Book {
 
 
     // вывод информации о книге
-    public String BookInfo(){
+    public String BookInfo() {
         return "Название: " + title + "\nАвтор: " + author.getFullName() + "\nГод: " + year;
 
     }
